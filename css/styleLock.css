@@ -1,0 +1,201 @@
+/***************************HTMl Element Section*********************/
+body {
+  background-color: #9cdce3;
+  color: #2B2E4A;
+  margin: 0;
+  text-align: center;
+  font-family: 'sans-serif',Verdana;
+}
+
+h1 {
+  font-size: 5.625rem;
+  color: rgb(255,255,255);
+  margin: 20px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-size: 2rem;
+  color: rgb(255,255,255);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+
+h3 {
+  color: #203541;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  border-style: dotted none none;
+  border-width: 6px;
+  width: 4%;
+  border-color: #2d949f;
+  margin: 100px auto;
+}
+
+p {
+  line-height: 2;
+}
+
+/***************************HTMl Element Section*********************/
+/***************************Top Container *********************/
+.topcontainer {
+  position: relative;
+
+}
+.content {
+    position: absolute; 
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.2); 
+    width: 100%;
+    padding: 0px;
+}
+
+.bio-text {
+  width: 50%;
+  margin: auto;
+  color: #40514E
+}
+
+
+.profile {
+  margin-bottom: 150px;
+}
+
+.contactBtn {
+  position: absolute;
+  right: 0.1em;
+  display: inline-block;
+  border: none;
+  color: #ffffff;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  padding: 10px 40px;
+}
+
+.menu {
+  color: #1E90FF;
+  text-decoration: none;
+}
+
+.menu:hover {
+  border: none;
+  color: red;
+}
+
+/***************************Top Container *********************/
+/***************************Middle Container*********************/
+.middle-container {
+  margin: 100px 0;
+}
+
+.contact-message {
+  width: 30%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  display: inline-block;
+  border: none;
+  color: #ffffff;
+  border-radius: 10px 10px 10px 10px;
+  -webkit-border-radius: 10px 10px 10px 10px;
+  -moz-border-radius: 10px 10px 10px 10px;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  font-size: 20px;
+  padding: 10px 40px;
+  background-image: linear-gradient(to top, #203541, #11999E);
+  background-color: #2B2E4A;
+}
+
+.btn:hover {
+  border: none;
+  color: #ffffff;
+  background-image: linear-gradient(to top, #74dac6, #2BC4AD);
+  background-color: #2B2E4A;
+}
+
+/***************************Skills Section *********************/
+.skill-row {
+  width: 50%;
+  margin: 100px auto 200px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.gameprogrammer, .teacher, .chart {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.contestprogrammer, .linux
+{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.game-link
+{
+  color: #203541;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.skill-row a.game-link:hover
+{
+  font-weight: normal;
+  color: #071a52;
+
+}
+/***************************Middle Container*********************/
+/***************************Below Container *********************/
+.bottom-container {
+  background-color: #203541;
+  ;
+  margin: 100px 0 0 0;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+.footer-link {  
+  margin: 0 20px 0 20px;
+}
+.footer-link-img
+{
+  width: 5%;
+}
+a:hover {
+  color: #EAF6F6;
+}
+
+/***************************Below Container *********************/
+
+
+/****************************Responsive Content******************/
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 2.5rem;
+    margin: 10px auto 0 auto;
+  }
+  h2 {
+    font-size: 1rem;
+  }
+}
